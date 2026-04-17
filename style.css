@@ -1,0 +1,249 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    border-style: groove;
+    border-radius: 8px;
+    border-color: #000000;
+    margin: 100px 50px 50px 100px;
+    padding-bottom: -10px;
+    height: 270px;
+    width: 1206px;
+    
+}
+form{
+    display: inline-block;
+    width: 1184px;
+    margin-left: -10px;
+    height: 224px;
+    padding-left: 20px;
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(171, 176, 241, 1) 25%, rgba(235, 225, 235, 1) 47%, rgba(202, 151, 201, 1) 66%, rgba(170, 80, 169, 1) 84%, rgba(213, 75, 136, 1) 94%, rgba(252, 70, 107, 1) 100%);
+    border: 5px 0px 5px 0px solid #0e0a0a;
+    border-style: groove;
+    border-radius: 7px;
+    border-bottom: 5px groove #0e0a0a;
+}
+
+div{
+    display: inline-block;
+    
+
+}
+#name1{
+    display: inline-block;
+    position: relative;
+    left: 65px;
+    
+
+}
+#name1:hover{
+    background-color: aquamarine;
+    border: 2px solid #000000;
+    height: 15px;
+    width: 170px;
+}
+#father{
+    display: inline-block;
+    position: relative;
+    left: 5px;
+}
+#father:hover{
+    background-color: aquamarine;
+    border: 2px solid #000000;
+    height: 15px;
+    width: 170px;
+}
+#address1{
+    display: inline-block;
+    position: relative;
+    left: 49px;
+}
+#address1:hover{
+    background-color: aquamarine;
+    border: 2px solid #000000;
+    height: 15px;
+    width: 170px;
+}
+#email{
+    display: inline-block;
+    position: relative;
+    left: 89px;
+}
+#email:hover{
+    background-color: aquamarine;
+    border: 2px solid #000000;
+    height: 15px;
+    width: 170px;
+}
+#password{
+    display: inline-block;
+    position: relative;
+    left: 0px;
+}
+#password:hover{
+    background-color: aquamarine;
+    border: 2px solid #000000;
+    height: 15px;
+    width: 170px;
+}
+#text4{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+#text4:hover{
+    background-color: aquamarine;
+    border: 2px solid #000000;
+    height: 15px;
+    width: 170px;
+}
+#mobile{
+    display: inline-block;
+
+}
+#mobile:hover{
+    background-color: aquamarine;
+    border: 2px solid #000000;
+    height: 15px;
+    width: 170px;
+}
+#number5{
+    display: inline-block;
+    position: relative;
+    left: 12px;
+}
+#number5:hover{
+    background-color: aquamarine;
+    border: 2px solid #000000;
+    height: 15px;
+    width: 170px;
+}
+#account{
+    display: inline-block;
+    border-right: 2px solid #000000;
+    padding: 0 45px 0 25px;
+    display: inline-block;
+    position: relative;
+    bottom: 225px;
+    left: 350px;
+}
+
+#edu{
+    display: inline-block;
+    padding: 0 30px 0 40px;
+    display: inline-block;
+
+}
+#h22{
+    position: relative;
+    bottom: 221px;
+    left: 395px;
+}
+#h23{
+    position: relative;
+    bottom: 443px;
+    left: 730px;
+}
+#edu{
+    position: relative;
+    bottom: 440px;
+    left: 700px;
+}
+#uni{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+#uni:hover{
+    background-color: aquamarine;
+    border: 2px solid #000000;
+    height: 15px;
+    width: 170px;
+}
+#deg{
+    display: inline-block;
+    position: relative;
+    left: 37px;
+}
+#deg:hover{
+    background-color: aquamarine;
+    border: 2px solid #000000;
+    height: 15px;
+    width: 170px;
+}
+#cgpa{
+    display: inline-block;
+    position: relative;
+    left: 104px;
+    height: 15px;
+    width: 170px;
+    align-items: center;
+    text-align: center;
+}
+#cgpa:hover{
+    background-color: aquamarine;
+    border: 2px solid #000000;
+    height: 15px;
+    width: 170px;
+}
+
+
+#date1{
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    height: 15px;
+    width: 170px;
+    
+}
+#date1:hover{
+    background-color: aquamarine;
+    border: 2px solid #000000;
+    height: 15px;
+    width: 170px;
+}
+h1{
+    text-align: center;
+    margin: -8px;
+    border-top: 3px groove #000000;
+    border-bottom: 3px groove #000000;
+    border-radius: 8px;
+    height: 45px;
+    background: #22C1C3;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(134, 190, 126, 1) 27%, rgba(134, 190, 126, 1) 27%, rgba(162, 189, 107, 1) 48%, rgba(168, 189, 103, 1) 80%, rgba(253, 187, 45, 1) 100%);
+
+}
+#per{
+    position: relative;
+    left: 20px;
+}
+#perso{
+    border-right: 2px solid #000000;
+    padding: 0 30px 0 20px;
+}
+#sum{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 400px;
+    width: 250px;
+    height: 80px;
+    font-size: 50px;
+    border: 3px groove #000000;
+    border-radius: 7px;
+    background-color: #087a9c;
+}
+#sum{
+    position:static;
+    position: relative;
+    bottom: 400px;
+}
+#sum:hover{
+    background: #22C1C3;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(134, 190, 126, 1) 27%, rgba(134, 190, 126, 1) 27%, rgba(162, 189, 107, 1) 48%, rgba(168, 189, 103, 1) 80%, rgba(253, 187, 45, 1) 100%);
+    color: #000000;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+
+}

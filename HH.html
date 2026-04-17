@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>registration form</h1>
+    <div>
+        <form action="chhh.html">
+            <h2 id="per">Personal Information</h2>
+            <div id="perso">
+                <label for="name">Name:</label>
+                <input type="text" id="name1" name="name" placeholder="enter your name" required><br><br>
+                <label for="father">Father's Name:</label>
+                <input type="text" id="father" name="father" required><br><br>
+                <label for="mobile">Mobile Number:</label>
+                <input type="number" id="mobile" name="mobile" required><br><br>
+                <label for="address">Address:</label>
+                <input type="text" id="address1" name="address" required><br><br>
+            </div>
+            <h2 id="h22">Account Information</h2>
+            <div id="account">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="password">Confirm Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <label for="text4">Account Holder:</label>
+                <input type="text" id="text4" name="text" required><br><br>
+                <label for="number5">Account Number:</label>
+                <input type="number" id="number5" name="number" required><br><br>
+                 
+            </div>
+            <h2 id="h23">Educational Information</h2>
+            <div id="edu">
+                <label for="uni">University name:</label>
+                <input type="text" id="uni" name="text" required><br><br>
+                <label for="deg">Degree name:</label>
+                <input type="text" id="deg" name="text" required><br><br>
+                <label for="cgpa">cgpa </label>
+                <input type="number" id="cgpa" name="number" step="0.01" min="0" max="10" required><br><br>
+                <label for="date1">date of passing:</label>
+                <input type="date" id="date1" name="date" min="2000-01-01" max="2026-12-31" required><br><br>
+            </div> 
+                
+                <button type="submit" id="sum">Register</button>
+                <h4 >wait a minute...</h4>
+                <script>
+                    
+                    document.querySelector("#sum").addEventListener("click", function(event) {
+                        event.preventDefault(); // Prevent the default form submission
+                        alert("Registration successful! Please wait a moment...");
+                        setTimeout(function() {
+                            window.location.href = "chhh.html"; // Redirect to chhh.html after 5 seconds
+                        }, 5000);
+                    });                        
+                </script>
+        </form>
+    </div>
+</body>
+</html>
